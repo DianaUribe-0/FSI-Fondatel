@@ -272,6 +272,10 @@ public class Conexion {
         g2.dispose();
         return imagenEscalada;
     }
+
+    com.mysql.jdbc.Connection conectar() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
 
 class ImageRenderer extends DefaultTableCellRenderer {

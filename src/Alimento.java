@@ -8,7 +8,7 @@ public class Alimento {
     private ImageIcon carta;
     private Float precio;
     
-    public Alimento (String id, String nombre, String descripcion, Float precio, String Categoria, String Estado, ImageIcon carta){
+    public Alimento (String id, String nombre, String descripcion, String Categoria, String Estado, String est, ImageIcon carta, Conexion cnx){
         this.id = id;
         this.nombre= nombre;
         this.descripcion = descripcion;
